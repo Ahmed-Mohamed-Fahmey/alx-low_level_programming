@@ -9,13 +9,15 @@
 */
 int main(void)
 {
-    int c = 97;
+char c = 97;
 
-    while (c < 123)
-    {
-        putchar(c);
-        c++;
-    }
+while (c < 123)
+{
+putchar(c);
+c++;
+}
 
-    return (0);
+printf("\n");
+
+return (0);
 }
