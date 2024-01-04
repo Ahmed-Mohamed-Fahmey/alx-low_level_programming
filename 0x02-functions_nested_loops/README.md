@@ -1,1 +1,1 @@
-nested loops & Functions redme
+nested loops & Functions readme
