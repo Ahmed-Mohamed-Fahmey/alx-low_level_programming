@@ -1,4 +1,6 @@
-void print_alphabet(void);
+#include <stdio.h>
+
+int _putchar(char c);
 
 /**
  * print_alphabet- function to print alphabet in lowercase
@@ -11,8 +13,8 @@ void print_alphabet(void)
 
 	while (c <= 'z')
 	{
-		putchar(c);
+		_putchar(c);
 		c++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
