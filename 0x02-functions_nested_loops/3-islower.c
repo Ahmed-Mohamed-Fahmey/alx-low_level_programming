@@ -17,17 +17,3 @@ int _islower(int c)
 		return (0);
 	}
 }
-
-/**
- * main - check the code
- *
- * Return: Alwayes 0
- */
-int main(void)
-{
-	int r;
-
-	r = _islower(140);
-	_putchar(r + '0');
-	return (0);
-}
