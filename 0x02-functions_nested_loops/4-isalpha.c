@@ -22,6 +22,11 @@ int _isalpha(int c)
 	}
 }
 
+/**
+ * main - check the code
+ *
+ * Return: Alwayes 0
+ */
 int main(void)
 {
 	int r;
