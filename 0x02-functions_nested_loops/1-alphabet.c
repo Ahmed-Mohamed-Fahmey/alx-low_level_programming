@@ -1,13 +1,14 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main- Entry point
- * Return: Always 0 (success)
+ * print_alphabet - prints alphabet in lowercase
+ * @c: integer that holds ascii representation of letters
+ *
+ * Return: void
  */
 void print_alphabet(void)
 {
-	char c = 97;
+	int c = 97;
 
 	while (c <= 'z')
 	{
@@ -15,4 +16,16 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
+}
+
+/**
+ * main - check the code
+ *
+ * Return: Alwayes 0
+ */
+int main(void)
+{
+	print_alphabet();
+
+	return (0);
 }
